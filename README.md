@@ -45,8 +45,9 @@ Réalise l'ensemble des algos présents
 
 Fichiers à utiliser :
 
-* index.html
-* index.css
+* [index.html](./index.html)
+* [index.css](./index.css)
+* [index.js](./index.js) _pour le bonus_
 
 Crée une grille de photos de cuisine, en utilisant les photos présentes sur le site suivant:
 
