@@ -8,14 +8,14 @@
 
 ## Pré-requis (outils installés)
 
-* nodejs
+* NodeJS
 * npm
-* wcs-checkpoints-quiz
+* [Checkpoint Quiz (wcs-checkpoints-quiz)](https://www.npmjs.com/package/wcs-checkpoints-quiz)
 
 -----------------------------------
 __A chaque fois que tu complètes un exercice:__
-* Fais un commit avec un message EXPLICITE sur votre branche.
-* Fais un push de votre branche.
+* Fais un commit avec un message EXPLICITE sur ta branche.
+* Fais un push de ta branche.
 
 -----------------------------------
 ## Partie 1: Q.C.M.
@@ -26,7 +26,7 @@ __A chaque fois que tu complètes un exercice:__
 wcs-checkpoints-quiz start
 ```
 * Suis les instructions présentes dans le terminal.
-* Réponds aux questions qui vous seront posées.
+* Réponds aux questions qui te seront posées.
 * Une fois le quiz terminé, n'oublie pas de commiter le fichier de réponses.
 
 
@@ -35,42 +35,37 @@ wcs-checkpoints-quiz start
 
 Réalise l'ensemble des algos présents
 
-> algo1.js
+> [algo1.js](./algo1.js)
 
-> algo2.js
-
-> (**BONUS**) algo3.js
+> [algo2.js](./algo2.js)
 
 -----------------------------------
 
-## Partie 3: Galerie avec Boostrap 4
+## Partie 3: Galerie de photos de cuisine
 
 Fichiers à utiliser :
 
 * index.html
 * index.css
 
-Crée une grille de photos de cuisine avec le framework Boostrap 4 et son système de Grid:
+Crée une grille de photos de cuisine, en utilisant les photos présentes sur le site suivant:
 
 Urls de photos:
-https://pixabay.com/fr/photos/?q=recette&hp=&image_type=all&order=popular&cat=&orientation=horizontal
+https://pixabay.com/fr/images/search/recipe/?orientation=horizontal
 
-Format des photos sur la Grille:
+Ces photos devront être disposés sous forme de grille, de manière "responsive", en respectant le format suivant :
 
 * Desktop: 4x6
 * Tablette: 2x12
 * Smartphone: 1x24
 
-[Bonus (si vous avez le temps)]
+Affiche au moins 12 photos de cuisine pour tester le côté responsive de ton site.
 
-Utilise la librairie Jquery Fancybox 3 afin que l'on puisse zoomer sur les images
-http://fancyapps.com/fancybox/3/
+**[Bonus (si tu as le temps)]**
 
-Voici les CDN:
+Tu vas maintenant ajouter un peu de "dynamisme" à ton projet :
 
-CSS:
-https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
-
-JS:
-https://code.jquery.com/jquery-3.3.1.min.js
-https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
+* Au chargement de ton application, tu ne vas afficher que les 3 premières photos de ta grille.
+* Ajouter un bouton "Voir plus" qui va permettre d'afficher le reste des photos.
+* Ajouter un bouton "Voir moins" qui va cacher toutes les photos mis à part les 3 premières.
+* Dans l'idéal, ton application ne comportera qu'un seul bouton affiché à la fois.
