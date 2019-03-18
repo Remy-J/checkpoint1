@@ -61,6 +61,7 @@ Ces photos devront être disposés sous forme de grille, de manière "responsive
 * Smartphone: 1x24
 
 Affiche au moins 12 photos de cuisine pour tester le côté responsive de ton site.
+L'utilisation de Bootstrap n'est pas obligatoire, à toi de choisir entre l'utiliser ou non au sein de ton projet.
 
 **[Bonus (si tu as le temps)]**
 
