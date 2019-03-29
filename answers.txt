@@ -1,0 +1,16 @@
+Q.1: master
+Q.2: git checkout 'X'
+Q.3: git clone
+Q.4: git status
+Q.5: git add -> git commit -> git push
+Q.6: /
+Q.7: vi, nano
+Q.8: pid
+Q.9: clear
+Q.10: pour ajouter : mkdir, pour supprimer : rm, rmdir
+Q.11: const myVar = 0
+Q.12: i = i + 5
+Q.13: 0
+Q.14: t1.length
+Q.15: Avec une boucle 'for', Avec une fonction 'filter'
+Q.16: objet.propriete, objet['propriete']
