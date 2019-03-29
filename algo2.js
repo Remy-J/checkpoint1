@@ -22,17 +22,18 @@ const minMax = (array) => {
   let max = -1000000000;
   let newArray = [];
   for (let i = 0; i < array.length; i++) {
-    if (array[i] < min) {
+       if (array[i] < min) {
       min = array[i];
     }
-    else if (array[i]>= max) {
+  }
+  for (let i = 0; i < array.length; i++) {
+    if ( array[i] >= max) {
       max = array[i];
     }
     
+  }    
+  
+  return newArray = [min , max];
   }
-  let returnedArray =newArray.push(min);
-  returnedArray = newArray.push(max);
-  return returnedArray;
-}
 
-console.log(minMax([56, 7, 63, 9, 7, 12, 85]))
+console.log(minMax([4, 6, 35, -65, -9, 0, 67]))
