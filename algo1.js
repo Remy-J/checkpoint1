@@ -17,3 +17,11 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+let chairCount = (rangées, sièges) => {
+  let result = [];
+  for (i = 1; i <= rangées; i++) {
+    for (j = 1; j <= sièges; j++) {
+      result.push(`${i}-${j}`)
+    }
+  }
+}
