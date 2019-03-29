@@ -5,7 +5,7 @@ Q.4: b
 Q.5: b
 Q.6: b
 Q.7: c
-Q.8: ls
+Q.8: a
 Q.9: b
 Q.10: a, b
 Q.11: a
