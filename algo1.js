@@ -22,8 +22,8 @@ let colonnes = 26 ;
   let finalArray = [];
 
 const seatArray = () => {  
-  for (i = 0 ; i < colonnes ; i++) {
-    console.log(i)
+  for (i = 1 ; i < colonnes ; i++) {
+    
     for (j=0 ; j < numberSeat ; j++){
       finalArray.push(i+ "-"+ j)
     }
@@ -31,4 +31,4 @@ const seatArray = () => {
   return finalArray
 }
 
-console.log(finalArray)
+console.log(seatArray())
