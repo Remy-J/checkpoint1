@@ -17,18 +17,28 @@
 * Résultat : [7, 85]
 */
 
-var minMax = () => (array) => {
-  const min = 0;
-  const max = array[0];
 
-  for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
+// Création d'un array1 pour lancer les tests avec node.
+
+const array1 = [56, 7, 63, 9, 7, 12, 85,444444,-222];
+
+
+const minMax = (entrée) => {
+  const array=[];
+  let min = 0;
+  let max = 0;
+
+  for (let i = 1; i<entrée.length; i++) {
+    if (entrée[i] < min) {
+      min = entrée[i];
     }
-    if (array[i] = max) {
-      max = array[i];
+    if (entrée[i] > max) {
+      max = entrée[i];
     }
-    return array;
+    
   }
-  array.push(min, max);
+    array.push(min, max);
+  console.log(array);
 }
+
+minMax(array1);
