@@ -31,6 +31,6 @@ const Count = function() {
 
     }
 
-
+   return totals
 }
 
