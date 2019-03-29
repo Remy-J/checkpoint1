@@ -17,3 +17,20 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const Count = function() {
+
+  
+  let totals = []
+    for (let i = 1; i <= 26; i++) {
+      for(let b = 1; b <= 100; b++) {
+         totals.push(i + '-' + b) 
+         
+      }
+
+
+    }
+
+
+}
+
